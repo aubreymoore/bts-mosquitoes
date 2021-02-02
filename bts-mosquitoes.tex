@@ -1,0 +1,103 @@
+\documentclass[12pt,letterpaper,english,bibliography=totocnumbered,abstract=on]{scrartcl}
+
+\usepackage{indentfirst}
+\usepackage{appendix}
+\usepackage{fullpage}
+%\usepackage{subfiles}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{verbatim}
+\usepackage[unicode=true,pdfusetitle,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage[table]{xcolor}
+\usepackage{csquotes}
+\usepackage{soul} % for hiliting text: \hl
+% old style is authoryear
+\usepackage[backend=biber, style=numeric, maxbibnames=99]{biblatex}
+\addbibresource{mylibrary.bib}
+
+\usepackage[disable]{todonotes}
+
+% Prevent page breaks within paragraphs
+% https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
+\widowpenalties 1 10000
+
+
+\begin{document}
+\titlehead{Research Idea}
+\title{Using Mosquitoes to Detect Brown Treesnakes}
+\author{Aubrey Moore, University of Guam}
+\maketitle
+
+%\begin{footnotesize}
+%\url{https://github.com/aubreymoore/Harmonic-Radar/raw/master/FS-CRB-HR-report1.pdf}
+%\end{footnotesize}
+
+
+%\newpage{}
+\tableofcontents{}
+
+\newpage
+\listoftodos
+
+\newpage
+
+
+\section{Background} 
+
+Several species of mosquitoes are attracted to snakes and will take blood meals from them. This behavior is of medical importance because snakes are overwintering hosts for eastern equine encephalitis (EEE) and other arboviruses. Captive snakes are sometimes used as olfactory attractants in mosquito traps used in EEE surveillance programs (personal experience).
+
+Mosquitoes can be used as biosensors to detect the presence of reptile species. 
+
+Cupp et al. 2004 detected 25 of 27 species of Squamata (snakes and lizards) known to occur in the Tuskegee National Forest using cytochrome B sequences of blood meals within the bodies of field-collected mosquitoes \cite{cuppIDENTIFICATIONREPTILIANAMPHIBIAN2004}. 
+
+Reeves et al. 2018 \cite{reevesInteractionsInvasiveBurmese2018} used mitochondrial cytochrome oxidase subunit I (CO1) DNA barcoding to determine the hosts of blood fed mosquitoes collected at a research facility in northern Florida where captive snakes were maintained in outdoor enclosures, accessible to local mosquitoes.  Their results indicate the potential of detecting the presence of Burmese python, \textit{Python bivittatus}, the well-established invasive species in the Florida Everglades, through screening mosquito blood meals for their DNA.
+
+We propose testing the feasibility of using mosquitoes as biosensors for detecting BTS Guam. If this method works, it would provide an alternative to the use of mouse baited snake traps for detection and monitoring BTS populations.
+
+\section{Experimental plan} 
+
+\subsection{Field study to determine species of mosquitoes attracted to BTS}
+
+The objective of this experiment is to determine which species of mosquitoes are attracted to BTS.
+
+The experimental unit for this experiment will be a CDC mini light trap. Mosquitos will be collected from  traps every morning. Each trap will be cycled through the following setups during the trapping period. 
+
+\begin{description}
+\item[Setup 1:] CDC mini light trap (fan on, light off); empty cloth sack suspended below trap
+\item[Setup 2:] CDC mini light trap (fan on, light on);  empty cloth sack suspended below trap
+\item[Setup 3:] CDC mini light trap (fan on, light off); snake in cloth sack suspended below trap
+\item[Setup 4:] CDC mini light trap (fan on, light on);  snake in cloth sack suspended below trap
+\end{description}
+
+Number of traps, trap locations, and trapping period to be determined.
+
+\subsection{Lab study to test method for detecting of BTS DNA in blood meals}
+
+If the previous field study indicates that one or more species of mosquitoes is attracted to BTS, a lab study will be performed to test molecular techniques for detecting BTS DNA in blood meals. 
+
+A lab colony of mosquito species attracted to BTS will be established. Adult females will be allowed to take a blood meal from caged BTS individuals. Blood-fed females and unfed females will be used to test for presence of BTS DNA using published methods.
+
+Methods to be selected from the literature.
+
+\subsection{Test for BTS DNA in mosquitoes collected for vector surveillance}
+
+If previous study indicates no major problems with methodology, we will conclude the feasibility study by testing DNA from mosquitoes collected during routine vector surveillance. 
+
+%Guam has Culex quinquefaciatus that prefers to feed on humans but there are a few folks that have observed them feeding on snakes. Email from Limb.
+%https://mail.google.com/mail/u/0/#search/brown+treesnake+mosquitoes/VpCqJRzRgfKTQGclRkgFNdfnFwvmWTVWrpnvbNsJfgkKpjprxmbqRMMWSzhNJTfNlgcGfJg
+
+\printbibliography
+
+
+\end{document}
